@@ -31,3 +31,22 @@ textarea {
 .margin-top-5 {
     margin-top:5%;
 }
+
+.background-primary {
+    background-color:#101010;
+}
+
+.text-align-center {
+    text-align:center;
+}
+
+.footer-links {
+    width:40px;
+    padding:5px;
+    border-radius:10px;
+}
+
+    .footer-links:hover {
+        background-color:darkblue;
+    }
+
