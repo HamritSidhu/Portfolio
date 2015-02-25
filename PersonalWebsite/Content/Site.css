@@ -33,7 +33,7 @@ textarea {
 }
 
 .background-primary {
-    background-color:#101010;
+    background-color:#222;
 }
 
 .text-align-center {
@@ -47,6 +47,62 @@ textarea {
 }
 
     .footer-links:hover {
-        background-color:darkblue;
+        background-color:#003680;
     }
 
+.a:hover {
+    background-color:#003680;
+}
+
+.width-50 {
+    width:50px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.font-size-large{
+    font-size:large
+}
+
+.font-fam-luc {
+    font-family:'Lucida Console';
+    color:white;
+}
+
+.home-background {
+    background: url('../Images/home.jpg') no-repeat center center fixed;
+    background-size:cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:650px;
+  
+}
+
+.margin-top-15 {
+    margin-top:15%;
+}
+
+.position-abs {
+    position:absolute;
+}

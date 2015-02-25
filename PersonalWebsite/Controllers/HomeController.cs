@@ -40,5 +40,10 @@ namespace PersonalWebsite.Controllers
 
             return View();
         }
+
+        public ActionResult Resume() 
+        {
+            return View();
+        }
     }
 }

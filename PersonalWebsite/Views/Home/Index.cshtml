@@ -2,13 +2,25 @@
     ViewBag.Title = "Home";
 }
 
-<div class="jumbotron row">
-        <img class="col-xs-5 col-md-2" src="~/Images/logo.png" />
-        <div class="col-xs-7 col-md-8 margin-top-5">Hi, I'm Hamrit.  Nice to meet you.  This website is currently under construction.  Please check back in a few days.</div>
-  
-    <div class="col-md-12">
-        <a href="~/Files/2B Updated Resume.docx" class="btn btn-primary" download>Download Resume</a>
-    </div>
 
+@Scripts.Render("~/bundles/typed")
+
+
+<div class="row home-background">
+    <h3 class="text-align-center">
+        <span class="element font-size-large font-fam-luc margin-top-15 position-abs"></span>
+       @* <span class="typed-cursor margin-top-15 position-abs" style="color:white">|</span>*@
+    </h3>
 </div>
 
+<script>
+  $(function(){
+      $(".element").typed({
+         strings: ["Hi there.", "Nice to meet you.", "I'm Hamrit.", "This website is currently under construction.","Please check back in a few days."],
+         typeSpeed: 40,
+         showCursor:false
+      });
+  });
+
+
+</script>
