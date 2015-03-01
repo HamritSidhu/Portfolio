@@ -80,27 +80,42 @@ textarea {
     100% { opacity:1; }
 }
 
+@font-face {
+    font-family:'Bradley Hand ITC'
+}
+
 .font-size-large{
     font-size:large
 }
 
-.font-fam-luc {
-    font-family:'Lucida Console';
+.font-size-ex-lg {
+    font-size:xx-large;
+}
+
+.font-fam-hand {
+  font-family:'Bradley Hand ITC';
     color:white;
 }
 
 .home-background {
-    background: url('../Images/home.jpg') no-repeat center center fixed;
+    background: url('../Images/home.jpeg') no-repeat center center fixed;
     background-size:cover;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height:650px;
-  
+ 
 }
 
 .margin-top-15 {
     margin-top:15%;
+}
+
+.margin-top-10 {
+    margin-top:10%;
+}
+
+.margin-top-20 {
+    margin-top:20%;
 }
 
 .position-abs {

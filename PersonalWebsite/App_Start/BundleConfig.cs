@@ -29,6 +29,26 @@ namespace PersonalWebsite
 
             bundles.Add(new ScriptBundle("~/bundles/typed").Include(
                     "~/Scripts/typed.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/about").Include(
+                    "~/Scripts/Custom/about.js"));
+
+
+            bundles.Add(new ScriptBundle("~/bundles/home").Include(
+                    "~/Scripts/Custom/home.js"));
+
+
+            bundles.Add(new ScriptBundle("~/bundles/projects").Include(
+                    "~/Scripts/Custom/projects.js"));
+
+
+            bundles.Add(new ScriptBundle("~/bundles/blog").Include(
+                    "~/Scripts/Custom/blog.js"));
+
+
+            bundles.Add(new ScriptBundle("~/bundles/resume").Include(
+                    "~/Scripts/Custom/resume.js"));
+
         }
     }
 }

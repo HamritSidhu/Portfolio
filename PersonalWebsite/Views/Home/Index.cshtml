@@ -6,21 +6,12 @@
 @Scripts.Render("~/bundles/typed")
 
 
+
 <div class="row home-background">
     <h3 class="text-align-center">
-        <span class="element font-size-large font-fam-luc margin-top-15 position-abs"></span>
-       @* <span class="typed-cursor margin-top-15 position-abs" style="color:white">|</span>*@
+        <span class="element font-size-ex-lg margin-top-10 font-fam-hand position-abs"></span>
     </h3>
 </div>
 
-<script>
-  $(function(){
-      $(".element").typed({
-         strings: ["Hi there.", "Nice to meet you.", "I'm Hamrit.", "This website is currently under construction.","Please check back in a few days."],
-         typeSpeed: 40,
-         showCursor:false
-      });
-  });
 
-
-</script>
+@Scripts.Render("~/bundles/home")
