@@ -64,24 +64,30 @@ textarea {
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
+
 
 @font-face {
-    font-family:'Bradley Hand ITC'
+    font-family: 'Bradley Hand ITC';
+    src: url('Fonts/Bradley Hand ITC.TTF') format('truetype');
+}
+.width-100 {
+    width:100%;
+}
+
+.work-wrap-break {
+    word-wrap:break-word;
+}
+
+.margin-top-2 {
+    margin-top:2%;
+}
+
+.margin-bottom-2 {
+    margin-bottom:2%;
+}
+
+.photo-border {
+    border-radius:140px;
 }
 
 .font-size-large{
@@ -116,6 +122,10 @@ textarea {
 
 .margin-top-20 {
     margin-top:20%;
+}
+
+.margin-top-40 {
+    margin-top:40%;
 }
 
 .position-abs {

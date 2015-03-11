@@ -21,11 +21,11 @@
                 </button>
                 
                 <img class="width-50 pull-left" src="~/Images/logo.png" />
-                    @Html.ActionLink("Hamrit Sidhu", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                    @Html.ActionLink("Hamrit Sidhu", "Index", "Home", new { area = "" }, new { @class = "navbar-brand font-fam-hand" })
                 @*@Html.Raw(@Html.ActionLink("[replacetext]", "Index", "Home").ToHtmlString().Replace("[replacetext]", "<img src=\"../Images/logo.png\" ... />"))*@
                 
             </div>
-            <div class="navbar-collapse collapse pull-right">
+            <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>

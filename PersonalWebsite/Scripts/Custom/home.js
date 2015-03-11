@@ -4,6 +4,7 @@
         navbar = $(".navbar");
         footer = $("footer");
         homeBackground = $(".home-background");
+        welcome = document.getElementById("welcome");
 
         this.typeIntro();
         this.windowResize();
@@ -11,10 +12,18 @@
     },
 
     typeIntro: function () {
+        var i = 1;
         typeText.typed({
             strings: ["Hey there!", "Nice to meet you.", "I'm Hamrit."],
             typeSpeed: 40,
-            showCursor: false
+            showCursor: false,
+            onStringTyped: function () {
+                if (i == this.strings.length) {
+                    welcome.innerHTML = "Welcome to my website.<br> Take a look around."
+                    $("#welcome").fadeIn('slow');
+                }
+                i++; 
+            }
         })
 
     },

@@ -3,7 +3,46 @@
 }
 
 <div class="container">
-    Stay tuned!
+    <h2>About me</h2>
+    <h4>Math. Software. Leadership.</h4>
+    <div class="row margin-top-2">
+        <div class="col-md-9">
+            <p class="jumbotron">
+            Hi, my name is Hamrit Sidhu.  I'm a 2B 
+            <a href="https://uwaterloo.ca/mechanical-mechatronics-engineering/">Mechatronics Engineering</a> 
+            student at the University of Waterloo.
+            I enjoy designing and creating software, working with math and robotics.  This term I'm working as a Web Application Developer
+            <a href="https://gatewaylogin.com/marketing.php">gatewayiQ</a>.
+            Previously developed at <a href="http://www.systemgroupinc.com/">Systemgroup</a>
+            and <a href="http://www.bluesun.ca/">Bluesun</a>.
+            </p>
+        </div>
+        
+        <div class="col-md-3">
+            <img class="width-100 photo-border" src="~/Images/about.jpg" />
+        </div>
+    </div>
+    <div class="row margin-top-2">
+        <div class="panel panel-default">
+            <div class="panel-heading" data-toggle="collapse" data-target="#tech-panel">
+                <h4>Experience</h4>
+            </div>
+            <div class="panel-body collapse" id="tech-panel">
+                @Html.Partial("~/Views/PartialViews/_TechnicalBackground.cshtml")
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading" data-toggle="collapse" data-target="#interest-panel">
+                <h4>A little more about me</h4>
+            </div>
+            <div class="panel-body collapse" id="interest-panel">
+                @Html.Partial("~/Views/PartialViews/_Interests.cshtml")
+            </div>
+        </div>
+    </div>
+  
 </div>
+
 
 @Scripts.Render("~/bundles/about")
