@@ -133,6 +133,12 @@ textarea {
 }
 
 .keyword {
-    border-radius:50%;
-    background-color:azure;
+    padding:2%;
+    font-size:medium;
+    height:85px;
+    font-weight:bold;
+}
+
+.keyword-icons {
+    width:60px;
 }
