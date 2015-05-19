@@ -10,40 +10,8 @@ namespace PersonalWebsite.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View(); 
         }
 
-        //public ActionResult About()
-        //{
-        //    ViewBag.Message = "Your application description page.";
-
-        //    return View();
-        //}
-
-        //public ActionResult Contact()
-        //{
-        //    ViewBag.Message = "Your contact page.";
-
-        //    return View();
-        //}
-
-        //public ActionResult Projects()
-        //{
-        //    ViewBag.Message = "Your contact page.";
-
-        //    return View();
-        //}
-
-        //public ActionResult Blog()
-        //{
-        //    ViewBag.Message = "Your contact page.";
-
-        //    return View();
-        //}
-
-        //public ActionResult Resume() 
-        //{
-        //    return View();
-        //}
     }
 }

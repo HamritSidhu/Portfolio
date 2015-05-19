@@ -142,3 +142,7 @@ textarea {
 .keyword-icons {
     width:60px;
 }
+
+.font-grey {
+    color: lightgrey;
+}

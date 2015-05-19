@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<PersonalWebsite.DAL.Blog.Post>
+
+@{
     ViewBag.Title = "Blog";
 }
 
@@ -11,7 +13,26 @@
             Check out my latest blogs!
         </div>
     </div>
+    <br/>
+    <table class="table table-hover">
+        <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td class="col-md-10">
+                    <div class="font-size-large"><span class="glyphicon glyphicon-book"></span> @Html.ActionLink(post.title, "Post", new { name = post.route })</div>
+                    <div class="col-md-12">
+                        <div class="font-grey">@post.description</div>
+                    </div>
+
+                </td>
+                <td class="col-md-2">
+                    <strong>Posted On </strong>@post.datePosted.Date.ToString("yyyy-MM-dd")
+                </td>
+            </tr>
+        }
+       </tbody>
+    </table>
 </div>
 
 
-@Scripts.Render("~/bundles/blog")
