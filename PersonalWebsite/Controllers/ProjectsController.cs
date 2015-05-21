@@ -12,8 +12,6 @@ namespace PersonalWebsite.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
 
