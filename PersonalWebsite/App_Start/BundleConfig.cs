@@ -25,7 +25,8 @@ namespace PersonalWebsite
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/prism.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/typed").Include(
                     "~/Scripts/typed.js"));
@@ -45,8 +46,8 @@ namespace PersonalWebsite
             bundles.Add(new ScriptBundle("~/bundles/blog").Include(
                     "~/Scripts/Custom/blog.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/resume").Include(
-                    "~/Scripts/Custom/resume.js"));
+            bundles.Add(new ScriptBundle("~/bundles/prism").Include(
+                    "~/Scripts/prism.js"));
 
         }
     }

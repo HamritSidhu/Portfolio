@@ -1,4 +1,11 @@
 ﻿@model PersonalWebsite.DAL.Blog.Post
+
+@Scripts.Render("~/bundles/prism")
+
+@{
+    ViewBag.Title = Model.title;
+}
+
 <div id="fb-root"></div>
 <div class="container">
 <div>
