@@ -1,6 +1,5 @@
 ﻿var about = {
     init: function () {
-      
     },
 }
 
